@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Amar Springs - A Spring Manufacturing Comapny</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar bg-light px-5 d-none d-lg-block">
+        <div class="row gx-0 align-items-center">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-muted small me-4"><i
+                            class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                    <a href="tel:+91 9899302553" class="text-muted small me-4"><i
+                            class="fas fa-phone-alt text-primary me-2"></i>+91 9899302553</a>
+                    <a href="mailto:sales@amarsprings.com" class="text-muted small me-0"><i
+                            class="fas fa-envelope text-primary me-2"></i>sales@amarsprings.com</a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a href="#"><small class="me-3 text-dark"><i
+                                class="fa fa-user text-primary me-2"></i>Register</small></a>
+                    <a href="#"><small class="me-3 text-dark"><i
+                                class="fa fa-sign-in-alt text-primary me-2"></i>Login</small></a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i
+                                    class="fa fa-home text-primary me-2"></i> My Dashboard</small></a>
+                        <div class="dropdown-menu rounded">
+                            <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="text-primary">Amar<font color="Orange">Springs</font>
+                </h1>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="products.html" class="nav-item nav-link">Products</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                            <span class="dropdown-toggle">Products Categories</span>
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="Compresion.html" class="dropdown-item">Compression Springs</a>
+                            <a href="extension.html" class="dropdown-item">Extension Springs</a>
+                            <a href="torsion.html" class="dropdown-item">Torsion Springs</a>
+                            <a href="custom.html" class="dropdown-item">Custom Springs</a>
+                            <a href="Coil.html" class="dropdown-item">Coil Spring</a>
+                            <a href="Leaf.html" class="dropdown-item">Leaf Springs</a>
+                            <a href="Volute.html" class="dropdown-item">Volute Springs</a>
+                            <a href="Disc.html" class="dropdown-item">Disc Springs</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                </div>
+                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
+            </div>
+        </nav>
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us</h4>
+                <!-- <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item active text-primary">About</li>
+                    </ol>     -->
+            </div>
+        </div>
+        <!-- Header End -->
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+    <!-- Abvout Start -->
+    <!-- <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-12 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">About Us</h4>
+                            <h1 class="display-5 mb-4">Amar Springs - Manufacturer of industrial springs, springs & stainless steel hook in Ghaziabad, Uttar Pradesh.</h1>
+                            <p class="mb-4">At Amar Springs, we specialize in the precision engineering and manufacturing of high-quality springs for a wide range of industries. With decades of experience and a commitment to excellence, we have become a trusted partner for businesses seeking reliable and custom spring solutions.
+<br>
+From compression springs and extension springs to torsion springs and wire forms, our products are designed to meet the exacting demands of sectors including automotive, aerospace, electronics, medical, industrial machinery, and more. Each spring we manufacture is crafted using top-grade materials, advanced machinery, and rigorous quality control processes.
+<br><br>
+<b>Our Mission</b><br>
+To deliver durable, high-performance spring solutions that exceed customer expectations and support innovation across industries.
+<br><br>
+<b>Our Vision</b><br>
+To be a leading global provider of spring manufacturing solutions, driven by quality, precision, and continuous improvement.
+<br><br>
+<b>Why Choose Us?</b><br>
+
+    ISO-certified manufacturing processes
+
+    Custom design and prototyping capabilities
+
+    Quick turnaround and competitive pricing
+
+    Dedicated engineering and support teams
+
+    Environmentally responsible production
+<br>
+We take pride in turning complex challenges into simple, effective spring solutions. Whether you need high-volume production or a custom-designed prototype, Amar Springs is here to help your business move forward — one spring at a time..
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="d-flex">
+                                        <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
+                                        <div class="ms-4">
+                                            <h4>Business Consulting</h4>
+                                            <p>Connect with Us.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-bookmark-heart-fill fa-3x text-primary"></i></div>
+                                        <div class="ms-4">
+                                            <h4>Year Of Expertise</h4>
+                                            <p>20 Years.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Discover Now</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
+                                        <div>
+                                            <h4>Call Us</h4>
+                                            <p class="mb-0 fs-5" style="letter-spacing: 1px;">08044566916</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div> -->
+    <!-- About End -->
+
+    <!-- my About section start -->
+    <!-- our story start -->
+    <div class="container-1">
+        <div class="box-1" style="height: 700px ;width: 100%; ">
+            <div class="text-center mx-auto pb-5 wow fadeInUp"
+                style="height: 600px; width: 80%;display: flex; justify-content: center;align-items: center; margin-top: 50px;">
+                <div class="box-2" style="height: 600px ;margin-right: 30px; margin-left: 20px;">
+                    <h1 class="text-content" style="color: #00D084; text-align: left;"> Our Story</h1>
+                    <h4 class="display-8 mb-8"
+                        style="font-family:  Arial, sans-serif; font-size: 13px; font-weight: 20px; margin-top: 20px;line-height: 1.9; text-align: left;">
+                        <b>Amar Springs,</b> we take pride in being one of India’s trusted manufacturers and suppliers
+                        of
+                        high-quality industrial springs. From humble beginnings, we have grown into a company that
+                        delivers precision, strength, and reliability across industries.
+                        With modern manufacturing facilities, advanced technology, and a skilled team, we design and
+                        produce a wide range of springs including torsion springs, compression springs, tension
+                        springs,
+                        and customized spring solutions.
+                        Over the years, we have built strong relationships with clients across all states of India,
+                        supporting industries such as automotive, machinery, engineering, and electronics. Every
+                        product
+                        we make reflects our commitment to quality, innovation, and customer satisfaction.
+                        At Amar Springs, we believe that every strong spring supports a stronger future.<br><br>
+                        We are a
+                        trusted manufacturer of a wide range of industrial springs, committed to delivering
+                        precision,
+                        durability, and performance. Since our inception, we have dedicated ourselves to engineering
+                        excellence and innovation,
+
+                        ensuring that every spring we produce meets the highest standards of quality and
+                        reliability.
+                        With years of expertise, modern manufacturing facilities, and a skilled team, we serve
+                        diverse
+                        industries including automotive, engineering, machinery, electronics, and more. Our springs
+                        are
+                        designed not just to meet specifications but to exceed expectations — offering strength,
+                        flexibility, and long-lasting performance. What started as a vision to provide reliable
+                        spring
+                        solutions has today grown into a company
+                        <br><br>
+                        recognized for its quality, customization, and customer-first approach. We take pride in
+                        building long-term relationships with our clients, supporting their growth with dependable
+                        products tailored to their need At the heart of our journey is a simple belief: strong
+                        springs
+                        build stronger industries.
+                    </h4>
+                </div>
+                <div class="box-3" style="margin-top: 60px; ">
+                    <img src="img/magnifectring.jpg"
+                        style="height: 500px; width: 500px; border-radius: 1%; border-color: transparent; "">
+                    <!-- <p class=" mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci
+                    facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa
+                    deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is certification section -->
+
+    <h2 class="section-title">CERTIFICATE</h2>
+
+    <div class="slider-container">
+        <div class="slides" id="slides">
+            <div class="award-card">
+                <img src="img/Screenshot 2025-09-10 173158.png" alt="Legrand">
+                <div class="award-title">Quality management system</div>
+                <div class="award-desc">Agrahan Engineers Pvt Ltd</div>
+            </div>
+            <div class="award-card">
+                <img src="img/Iatf.jpg" alt="Bombay Industries Association">
+                <div class="award-title">Bombay Industries Association</div>
+                <div class="award-desc">Achievement Award - 2007</div>
+            </div>
+            <div class="award-card">
+                <img src="img/iso-certification.jpg" alt="Schneider">
+                <div class="award-title">Schneider Electric India Pvt. Ltd.</div>
+                <div class="award-desc">Best Overall Performance for the Year 2006</div>
+            </div>
+            <div class="award-card">
+                <img src="img/high-quality.png" alt="Godrej">
+                <div class="award-title">Godrej Locks</div>
+                <div class="award-desc">Self Certified Supplier Award 2003–2004</div>
+            </div>
+            <div class="award-card">
+                <img src="img/Screenshot 2025-09-10 173158.png" alt="Umbrella Components">
+                <div class="award-title">Umbrella Components Association</div>
+                <div class="award-desc">ISO 9002 Certification</div>
+            </div>
+            <div class="award-card">
+                <img src="img/iso-certification.jpg" alt="Umbrella Components">
+                <div class="award-title">Umbrella Components Association</div>
+                <div class="award-desc">ISO 9002 Certification</div>
+            </div>
+            <div class="award-card">
+                <img src="img/Screenshot 2025-09-10 173158.png" alt="Umbrella Components">
+                <div class="award-title">Umbrella Components Association</div>
+                <div class="award-desc">ISO 9002 Certification</div>
+            </div>
+            <div class="award-card">
+                <img src="img/Iatf.jpg" alt="Umbrella Components">
+                <div class="award-title">Umbrella Components Association</div>
+                <div class="award-desc">ISO 9002 Certification</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dots -->
+    <div class="dots">
+        <span class="dot active" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        const slides = document.getElementById("slides");
+        const dots = document.querySelectorAll(".dot");
+        const totalSlides = document.querySelectorAll(".award-card").length;
+        const cardsPerView = 4; // default
+
+        function showSlide(index) {
+            if (index < 0) slideIndex = 0;
+            else if (index > Math.ceil(totalSlides / cardsPerView) - 1) {
+                slideIndex = 0;
+            } else {
+                slideIndex = index;
+            }
+            slides.style.transform = `translateX(${-slideIndex * 100}%)`;
+            dots.forEach(dot => dot.classList.remove("active"));
+            dots[slideIndex].classList.add("active");
+        }
+
+        function currentSlide(n) {
+            showSlide(n);
+        }
+
+        // Auto slide
+        setInterval(() => {
+            showSlide(slideIndex + 1);
+        }, 4000);
+
+        showSlide(0);
+    </script>
+    </div>
+    </div>
+
+    <!-- certification section end -->
+
+
+
+    <!-- my About section end -->
+
+    <!-- Features Start
+        <div class="container-fluid feature pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Features</h4>
+                    <h1 class="display-5 mb-4">Connecting businesses, ideas, and people for greater impact.</h1>
+                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-chart-line fa-4x text-primary"></i>
+                            </div>
+                            <h4>Global Management</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-university fa-4x text-primary"></i>
+                            </div>
+                            <h4>Corporate Banking</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-file-alt fa-4x text-primary"></i>
+                            </div>
+                            <h4>Asset Management</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-hand-holding-usd fa-4x text-primary"></i>
+                            </div>
+                            <h4>Investment Bank</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Features End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid team pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 1000px;">
+                <h4 class=" team-heading">Our Team</h4>
+
+                <!-- <p class="mb-0">XXXX.
+                    </p> -->
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/backgroundimg2.jpg" class="img-fluid" alt=""> 
+                        </div>
+                        <div class="team-title">
+                            <h4 class="mb-0">Mr.Amarnath Singh</h4>
+                            <p class="mb-0">Managing Director</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/backgroundimg2.jpg" class="img-fluid" alt=""> 
+                        </div>
+                        <div class="team-title">
+                            <h4 class="mb-0">Mr. virat Singh</h4>
+                            <p class="mb-0">Marketing & purchase Head</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="team-img">
+                           <img src="img/backgroundimg2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="team-title">
+                            <h4 class="mb-0">Mr. A.K Singh</h4>
+                            <p class="mb-0">Plant Head</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/backgroundimg2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="team-title">
+                            <h4 class="mb-0">Mr. G.M Goyel </h4>
+                            <p class="mb-0">Sales and Co-ordinator</p>
+                        </div>
+                        <!-- <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Footer Start -->
+    <!-- <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5 border-start-0 border-end-0"
+            style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-4">
+                    <div class="footer-item">
+                        <a href="index.html" class="p-0">
+                            <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>Amar Springs</h4>
+                            <!-- <img src="img/logo.png" alt="Logo"> -->
+                        </a>
+                        <!-- <p class="mb-4">We are best in Industry the Manufacturer of All type of Springs ...</p> -->
+                        <!--    <div class="d-flex">
+                                <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
+                                    <i class="fas fa-apple-alt text-white"></i>
+                                    <div class="ms-3">
+                                        <small class="text-white">Download on the</small>
+                                        <h6 class="text-white">App Store</h6>
+                                    </div>
+                                </a>
+                                <a href="#" class="bg-dark d-flex rounded align-items-center py-2 px-3 ms-2">
+                                    <i class="fas fa-play text-primary"></i>
+                                    <div class="ms-3">
+                                        <small class="text-white">Get it on</small>
+                                        <h6 class="text-white">Google Play</h6>
+                                    </div>
+                                </a>
+                            </div>   -->
+                    <!-- </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-2">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">Quick Links</h4>
+                        <a href="index.html"><i class="fas fa-angle-right me-2"></i>Home</a>
+                        <a href="about.html"><i class="fas fa-angle-right me-2"></i>About Us</a>
+                        <a href="products.html"><i class="fas fa-angle-right me-2"></i>Products</a>
+                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i>Contact us</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">Support</h4>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i>Support</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i>FAQ</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i>Help</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">Contact Info</h4>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                            <p class="text-white mb-0">137 B Anand Industrial Estate Mohan Nagar Ghaziabad,
+                                Ghaziabad-201007, Uttar Pradesh, India</p>
+
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-envelope text-primary me-3"></i>
+                            <p class="text-white mb-0">virat@amarsprings.com</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fa fa-phone-alt text-primary me-3"></i>
+                            <p class="text-white mb-0">+91 9899302553</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <i class="fab fa-firefox-browser text-primary me-3"></i>
+                            <p class="text-white mb-0">amarsprings.com</p>
+                        </div>
+                        <div class="d-flex">
+                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
+                                    class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
+                                    class="fab fa-twitter text-white"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
+                                    class="fab fa-instagram text-white"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i
+                                    class="fab fa-linkedin-in text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --> 
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <!-- <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
+                                class="fas fa-copyright text-light me-2"></i>Amar Springs</a>, All right
+                        reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-body">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    <!-- Maintained By <a class="border-bottom text-white" href="">NS DataWebX Technologies</a> -->
+                <!-- </div>
+            </div>
+        </div>
+    </div>  
+-->
+
+
+        <!-- footer start -->
+    <footer class="footer">
+    <!-- Company Info -->
+    <div class="footer-column">
+      <h3><i class="fa fa-search"></i> Amar Springs</h3>
+      <p>We are best in Industry the Manufacturer of <br> All type of Springs ...</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-column">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-column">
+      <h3>Contact Info</h3>
+      <p class="contact-info">
+        <i class="fa fa-map-marker-alt"></i> 137 B Anand Industrial Estate Mohan Nagar <br>
+        Ghaziabad, Uttar Pradesh, India 201007 <br>
+        <i class="fa fa-envelope"></i> virat@amarsprings.com <br>
+        <i class="fa fa-phone"></i> +91 9899302553 <br>
+        <i class="fa fa-globe"></i> amarsprings.com
+      </p>
+
+      <!-- Social Media -->
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <p>© <strong>Amar Springs</strong>, All rights reserved.</p>
+    <p>Maintained By <a href="#">NS DataWebX Technologies</a></p>
+  </div>
+
+  <!-- footer end -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
